@@ -1,0 +1,84 @@
+/*CSS DOCUMENT*/
+@charset "utf-8";
+
+@font-face {
+    font-family: "alegreya";
+    src: url(fuentes/Alegreya-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: "alegreya bold";
+    src: url(fuentes/Alegreya-Bold.ttf) format(truetype);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "alegreya italic";
+    src: url(fuentes/Alegreya-Italic.ttf) format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "alegreya bold italic";
+    src: url(fuentes/Alegreya-BoldItalic.ttf) format(truetype);
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1{
+    font-family:'alegreya bold', serif;
+    font-size: 2rem;
+    line-height: 1rem;
+}
+
+h2{
+    font-family: 'alegreya italic', serif;
+    font-size: 17px;
+
+}
+
+* {
+font-family: "Pubic Sans", sans-serif;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+.descripcion{
+    text-wrap-style: balance;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(240, 214, 180);
+}
+
+nav{
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+footer{
+    text-align: center;
+    
+}
+
+ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.fotodeperfil {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2rem;
+}
+
+
