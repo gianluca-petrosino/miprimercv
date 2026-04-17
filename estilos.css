@@ -29,48 +29,62 @@
     font-style: italic;
 }
 
+
+@font-face {
+    font-family: 'Sans-Italic', sans-serif;
+    src: url(fuentes/GoogleSans-Italic-VariableFont_GRAD,opsz,wght.ttf) format (truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sans-regular', sans-serif;
+    src: url(fuentes/GoogleSans-VariableFont_GRAD,opsz,wght.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 h1 {
-    font-family: 'alegreya bold', serif;
-    font-size: 2rem;
-    line-height: 1rem;
+    font-family: 'Sans-Italic';
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+    color: rgb(4, 70, 128);
+    margin-bottom: 0px;
 }
 
 h2 {
-    font-family: 'alegreya', serif;
-    font-size: 17px;
-    color: blue;
-
-}
-h3 {
-    font-family:'Alegreya Italic', serif;
+    font-family: 'Sans-regular', sans-serif;
     font-size: 1rem;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
 }
+
 
 * {
-    font-family: "Pubic Sans", sans-serif;
+    font-family: "alegreya", sans-serif;
 }
 
-h1,
-h2,
-h3 {
-    text-align: left;
+.principios {
+    padding: 20px;
+    background-color: #8b8b8b;
+    max-width: 550px;
+    min-width: 200px;
+    margin-top: 50px;
 }
+
 
 .descripcion {
     text-wrap-style: balance;
     text-align: left;
 }
 
-body {
-    background-color: rgb(168, 156, 141);
-}
-
 nav {
     text-align: center;
     font-size: 0.7rem;
     BACKGROUND: rgb(0 0 0);
-    padding: 10px 0;
-    margin: 0 15px;
+    padding: 15px;
+    margin: 15px;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -83,48 +97,25 @@ ul {
 }
 
 
-footer {
-    color: black;
-}
-
 a {
+    font-size: 0.8rem;
     color: aliceblue;
 }
 
-.principios{
-    display: flex;             
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
 
+h3,
 h4 {
-    font-size: 20px;
+    font-family: 'Sans-Italic';
+    font-size: 1rem;
+    color: rgb(4, 70, 128);
+    border-bottom: 2px solid black;
+    padding-bottom: 5px
 }
 
-.formaciones {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.bloque {
-    width: 30%; 
-}
-
-.bloque {
-    flex: 1;
-    padding: 0 15px;
-    border-right: 1px solid rgba(0,0,0,0.2);
-}
-
-/* sacar la línea del último */
-.bloque:last-child {
-    border-right: none;
-}
 
 .footer {
     background-color: black;
+    padding: 10px;
 }
 
 .redes {
@@ -134,26 +125,14 @@ h4 {
 }
 
 .red {
-    font-size: 10px;
+    font-size: 0.8rem;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 4px;
     color: white;
+    margin-left: 41px;
 }
 
-.red img {
-    width: 20px;
-    height: 20px;
-}
-
-.trabajos {
-    padding: 40px 20px;
-}
-
-.trabajos h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 .descripcion {
     display: flex;
@@ -168,6 +147,81 @@ h4 {
     gap: 20px;
 }
 
-h6{
-    font-size: 20px;
+
+/*nuevo comienzo despues de leer correcciones*/
+
+body {
+    background-color: #414040;
+}
+
+.texto {
+    text-align: start;
+    font-size: ;
+}
+
+.bloque p {
+    font-size: 1rem;
+    line-height: 18px;
+}
+
+.derecha {
+    padding: 20px;
+    background-color: rgb(4, 70, 128);
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 3px solid black;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: 50px;
+
+}
+
+.derecha p {
+    font-size: 1rem;
+    margin-top: 0;
+    line-height: 1;
+    color: aliceblue;
+}
+
+h5 {
+    font-family: 'Sans-Italic';
+    background-color: rgb(79, 170, 245);
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.derecha>img {
+    border: 7px solid rgb(79, 170, 245);
+    padding: 5px;
+}
+
+H6 {
+    background-color: rgb(79, 170, 245);
+    font-size: 0.8rem;
+    font-family: 'Sans-Italic';
+    padding: 6px;
+    border-radius: 20px;
+    margin-top: 0;
+    margin-bottom: auto
+}
+
+.bloque-personal {
+    border: 2px solid #00cfff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bloque-personal p {
+    line-height: 26px;
 }
