@@ -56,8 +56,7 @@ h1 {
 h2 {
     font-family: 'Sans-regular', sans-serif;
     font-size: 1rem;
-    margin-bottom: 25px;
-    color: rgb(255, 255, 255);
+    padding: 15px 0;
 }
 
 
@@ -81,8 +80,7 @@ h2 {
 
 nav {
     text-align: center;
-    font-size: 0.7rem;
-    BACKGROUND: rgb(0 0 0);
+    background-color: rgb(0 0 0);
     padding: 15px;
     margin: 15px;
     display: flex;
@@ -98,30 +96,22 @@ ul {
 
 
 a {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: aliceblue;
 }
 
 
-h3,
-h4 {
+h3 {
     font-family: 'Sans-Italic';
-    font-size: 1rem;
-    color: rgb(4, 70, 128);
     border-bottom: 2px solid black;
-    padding-bottom: 5px
-}
-
-
-.footer {
-    background-color: black;
-    padding: 10px;
+    color: rgb(4, 70, 128);
+    margin:0;
 }
 
 .redes {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 .red {
@@ -132,7 +122,6 @@ h4 {
     color: white;
     margin-left: 41px;
 }
-
 
 .descripcion {
     display: flex;
@@ -154,14 +143,9 @@ body {
     background-color: #414040;
 }
 
-.texto {
-    text-align: start;
-    font-size: ;
-}
-
 .bloque p {
-    font-size: 1rem;
-    line-height: 18px;
+    font-size: 1.1rem;
+    line-height: 23px;
 }
 
 .derecha {
@@ -188,9 +172,9 @@ main {
 }
 
 .derecha p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-top: 0;
-    line-height: 1;
+    line-height: 0.6;
     color: aliceblue;
 }
 
@@ -217,11 +201,23 @@ H6 {
 }
 
 .bloque-personal {
+    margin-top: 20px;
     border: 2px solid #00cfff;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 25px;
+    border-radius: 20px;
 }
 
 .bloque-personal p {
-    line-height: 26px;
+    line-height: 27px;
+}
+
+footer {
+    background-color: black;
+    padding: 5px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
