@@ -31,22 +31,22 @@
 
 
 @font-face {
-    font-family: 'Sans-Italic', sans-serif;
-    src: url(fuentes/GoogleSans-Italic-VariableFont_GRAD,opsz,wght.ttf) format (truetype);
+    font-family: 'montserrat', sans-serif;
+    src: url(fuentes/Montserrat-Italic-VariableFont_wght.ttf) format(truetype);
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Sans-regular', sans-serif;
-    src: url(fuentes/GoogleSans-VariableFont_GRAD,opsz,wght.ttf) format(truetype);
+    font-family: 'montserrat', sans-serif;
+    src: url(fuentes/Montserrat-VariableFont_wght.ttf) format(truetype);
     font-weight: normal;
     font-style: normal;
 }
 
 
 h1 {
-    font-family: 'Sans-Italic';
+    font-family: 'montserrat', sans-serif;
     font-size: 2.3rem;
     line-height: 2.5rem;
     color: rgb(4, 70, 128);
@@ -54,7 +54,8 @@ h1 {
 }
 
 h2 {
-    font-family: 'Sans-regular', sans-serif;
+    font-family: 'montserrat', sans-serif;
+    font-style: italic;
     font-size: 1rem;
     padding: 15px 0;
 }
@@ -102,10 +103,11 @@ a {
 
 
 h3 {
-    font-family: 'Sans-Italic';
+    font-family: 'montserrat', sans-serif;
+    font-style: italic;
     border-bottom: 2px solid black;
     color: rgb(4, 70, 128);
-    margin:0;
+    margin: 0;
 }
 
 .redes {
@@ -152,7 +154,6 @@ body {
     padding: 20px;
     background-color: rgb(4, 70, 128);
     display: flex;
-    align-items: flex-start;
     margin-top: 50px;
     flex-direction: column;
     align-items: center;
@@ -171,45 +172,37 @@ main {
 
 }
 
-.derecha p {
-    font-size: 1.1rem;
+.derecha p,
+.derecha li {
+    font-size: 0.9rem;
     margin-top: 0;
-    line-height: 0.6;
     color: aliceblue;
+    line-height: 25px;
 }
 
-h5 {
-    font-family: 'Sans-Italic';
-    background-color: rgb(79, 170, 245);
-    padding: 8px 12px;
-    border-radius: 20px;
-}
 
 .derecha>img {
     border: 7px solid rgb(79, 170, 245);
     padding: 5px;
 }
 
-H6 {
+h5,
+h6 {
     background-color: rgb(79, 170, 245);
     font-size: 0.8rem;
-    font-family: 'Sans-Italic';
+    font-family: 'montserrat', sans-serif;
     padding: 6px;
     border-radius: 20px;
-    margin-top: 0;
-    margin-bottom: auto
+    margin-bottom: 12px;
 }
 
 .bloque-personal {
     margin-top: 20px;
     border: 2px solid #00cfff;
-    padding: 25px;
+    padding: 0px 10px 10px 10px;
     border-radius: 20px;
 }
 
-.bloque-personal p {
-    line-height: 27px;
-}
 
 footer {
     background-color: black;
